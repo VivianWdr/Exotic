@@ -5,4 +5,5 @@ target 'Exotic' do
   pod 'SDWebImage'
   pod 'Masonry'
   pod 'ReactiveCocoa'
+  pod 'FDFullscreenPopGesture', '1.1'
 end

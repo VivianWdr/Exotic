@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6A84DD39A3F59E041E4A3D62 /* libPods-Exotic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */; };
+		A06B45721D336B0000C8E683 /* Exotic_HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45711D336B0000C8E683 /* Exotic_HomeTableViewController.m */; };
+		A06B45761D33732D00C8E683 /* Exotic_AnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45751D33732D00C8E683 /* Exotic_AnimationExample.m */; };
 		AAC078251D30FCBE007D08B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC078241D30FCBE007D08B4 /* main.m */; };
 		AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC078271D30FCBE007D08B4 /* AppDelegate.m */; };
 		AAC0782B1D30FCBE007D08B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC0782A1D30FCBE007D08B4 /* ViewController.m */; };
@@ -38,6 +40,10 @@
 /* Begin PBXFileReference section */
 		0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exotic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7437BDF218427E4926252 /* Pods-Exotic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exotic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Exotic/Pods-Exotic.release.xcconfig"; sourceTree = "<group>"; };
+		A06B45701D336B0000C8E683 /* Exotic_HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_HomeTableViewController.h; sourceTree = "<group>"; };
+		A06B45711D336B0000C8E683 /* Exotic_HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_HomeTableViewController.m; sourceTree = "<group>"; };
+		A06B45741D33732D00C8E683 /* Exotic_AnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_AnimationExample.h; sourceTree = "<group>"; };
+		A06B45751D33732D00C8E683 /* Exotic_AnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_AnimationExample.m; sourceTree = "<group>"; };
 		AAC078201D30FCBE007D08B4 /* Exotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exotic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC078241D30FCBE007D08B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAC078261D30FCBE007D08B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +98,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A06B45731D33730200C8E683 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A06B45741D33732D00C8E683 /* Exotic_AnimationExample.h */,
+				A06B45751D33732D00C8E683 /* Exotic_AnimationExample.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
 		AAC078171D30FCBD007D08B4 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +136,9 @@
 				AAC078271D30FCBE007D08B4 /* AppDelegate.m */,
 				AAC078291D30FCBE007D08B4 /* ViewController.h */,
 				AAC0782A1D30FCBE007D08B4 /* ViewController.m */,
+				A06B45701D336B0000C8E683 /* Exotic_HomeTableViewController.h */,
+				A06B45711D336B0000C8E683 /* Exotic_HomeTableViewController.m */,
+				A06B45731D33730200C8E683 /* Animation */,
 				AAC0782C1D30FCBE007D08B4 /* Main.storyboard */,
 				AAC0782F1D30FCBE007D08B4 /* Assets.xcassets */,
 				AAC078311D30FCBE007D08B4 /* LaunchScreen.storyboard */,
@@ -345,6 +363,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06B45761D33732D00C8E683 /* Exotic_AnimationExample.m in Sources */,
+				A06B45721D336B0000C8E683 /* Exotic_HomeTableViewController.m in Sources */,
 				AAC0782B1D30FCBE007D08B4 /* ViewController.m in Sources */,
 				AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */,
 				AAC078251D30FCBE007D08B4 /* main.m in Sources */,

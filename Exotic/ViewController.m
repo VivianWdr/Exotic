@@ -17,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initWithView];
+}
 
+-(void)initWithView{
     __weak typeof(self) WeakSelf = self;
     
     UIView *view1 = ({
@@ -30,12 +33,8 @@
         }];
         view;
     });
-    UIView *view2 = ({
-        UIView *view = [UIView new];
-        [WeakSelf.view addSubview:view];
-        view;
-    });
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
