@@ -24,7 +24,7 @@
     self.classNames = @[].mutableCopy;
     
     [self addCell:@"CAAimation" class:@"Exotic_AnimationExample"];
-    
+    [self addCell:@"MoviePlayer" class:@"Exotic_MovieViewController"];
     [self.tableView reloadData];
     
 }
@@ -62,6 +62,7 @@
     if (class) {
         UIViewController *viewCtr = class.new;
         viewCtr.title = _titles[indexPath.row];
+        viewCtr.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:viewCtr animated:YES];
     }
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];

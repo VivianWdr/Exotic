@@ -1,17 +1,14 @@
 //
-//  Exotic_AnimationExample.h
+//  Exotic_PageAnimationUtil.h
 //  Exotic
 //
-//  Created by HCZH on 16/7/11.
+//  Created by HCZH on 16/7/12.
 //  Copyright © 2016年 陈维维. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface Exotic_AnimationExample : UIViewController
 /*
  *子类：CAAnimationGrop CATransition CAPropertyAnimation
-       CAPropertyAnimation(不可直接使用，要使用它的子类)：CABasicAnimation CAKeyframeAnimation
+ CAPropertyAnimation(不可直接使用，要使用它的子类)：CABasicAnimation CAKeyframeAnimation
  * 常见属性有：
  
  1> duration：动画的持续时间
@@ -36,7 +33,7 @@
  6> repeatCount :重复次数
  
  7> removedOnCompletion:YES
-    NO:
+ NO:
  fillMode决定当前对象在非active时间段的行为。（要想fillMode有效，最好设置removedOnCompletion = NO）
  
  kCAFillModeRemoved 这个是默认值，也就是说当动画开始前和动画结束后，动画对layer都没有影响，动画结束后，layer会恢复到之前的状态
@@ -66,4 +63,13 @@
  动画执行完毕的时候触发这个方法
  - (void)anmiationDidStop:(CAAnimation *)anim finished:(BOOL)flag;
  */
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface Exotic_PageAnimationUtil : NSObject
+
++ (void)viewAnimationWithView:(UIView *)view;
+
+
 @end

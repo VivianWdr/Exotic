@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6A84DD39A3F59E041E4A3D62 /* libPods-Exotic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */; };
-		A06B45721D336B0000C8E683 /* Exotic_HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45711D336B0000C8E683 /* Exotic_HomeTableViewController.m */; };
-		A06B45761D33732D00C8E683 /* Exotic_AnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45751D33732D00C8E683 /* Exotic_AnimationExample.m */; };
+		A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */; };
+		A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45811D34ED2500C8E683 /* Exotic_PageAnimationUtil.m */; };
+		A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */; };
+		A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */; };
 		AAC078251D30FCBE007D08B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC078241D30FCBE007D08B4 /* main.m */; };
 		AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC078271D30FCBE007D08B4 /* AppDelegate.m */; };
-		AAC0782B1D30FCBE007D08B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC0782A1D30FCBE007D08B4 /* ViewController.m */; };
 		AAC0782E1D30FCBE007D08B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC0782C1D30FCBE007D08B4 /* Main.storyboard */; };
 		AAC078301D30FCBE007D08B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC0782F1D30FCBE007D08B4 /* Assets.xcassets */; };
 		AAC078331D30FCBE007D08B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC078311D30FCBE007D08B4 /* LaunchScreen.storyboard */; };
@@ -40,16 +41,18 @@
 /* Begin PBXFileReference section */
 		0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exotic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7437BDF218427E4926252 /* Pods-Exotic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exotic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Exotic/Pods-Exotic.release.xcconfig"; sourceTree = "<group>"; };
-		A06B45701D336B0000C8E683 /* Exotic_HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_HomeTableViewController.h; sourceTree = "<group>"; };
-		A06B45711D336B0000C8E683 /* Exotic_HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_HomeTableViewController.m; sourceTree = "<group>"; };
-		A06B45741D33732D00C8E683 /* Exotic_AnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_AnimationExample.h; sourceTree = "<group>"; };
-		A06B45751D33732D00C8E683 /* Exotic_AnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_AnimationExample.m; sourceTree = "<group>"; };
+		A06B457E1D34ED2500C8E683 /* Exotic_AnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_AnimationExample.h; sourceTree = "<group>"; };
+		A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_AnimationExample.m; sourceTree = "<group>"; };
+		A06B45801D34ED2500C8E683 /* Exotic_PageAnimationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_PageAnimationUtil.h; sourceTree = "<group>"; };
+		A06B45811D34ED2500C8E683 /* Exotic_PageAnimationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_PageAnimationUtil.m; sourceTree = "<group>"; };
+		A06B45851D34EE2A00C8E683 /* Exotic_HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_HomeTableViewController.h; sourceTree = "<group>"; };
+		A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_HomeTableViewController.m; sourceTree = "<group>"; };
+		A06B45891D34EEB900C8E683 /* Exotic_MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_MovieViewController.h; sourceTree = "<group>"; };
+		A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_MovieViewController.m; sourceTree = "<group>"; };
 		AAC078201D30FCBE007D08B4 /* Exotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exotic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC078241D30FCBE007D08B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAC078261D30FCBE007D08B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAC078271D30FCBE007D08B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AAC078291D30FCBE007D08B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AAC0782A1D30FCBE007D08B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AAC0782D1D30FCBE007D08B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAC0782F1D30FCBE007D08B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAC078321D30FCBE007D08B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,13 +101,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A06B45731D33730200C8E683 /* Animation */ = {
+		A06B457D1D34ED2500C8E683 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				A06B45741D33732D00C8E683 /* Exotic_AnimationExample.h */,
-				A06B45751D33732D00C8E683 /* Exotic_AnimationExample.m */,
+				A06B457E1D34ED2500C8E683 /* Exotic_AnimationExample.h */,
+				A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */,
+				A06B45801D34ED2500C8E683 /* Exotic_PageAnimationUtil.h */,
+				A06B45811D34ED2500C8E683 /* Exotic_PageAnimationUtil.m */,
 			);
-			name = Animation;
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		A06B45841D34EE2A00C8E683 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A06B45851D34EE2A00C8E683 /* Exotic_HomeTableViewController.h */,
+				A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A06B45881D34EE8900C8E683 /* MoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A06B45891D34EEB900C8E683 /* Exotic_MovieViewController.h */,
+				A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */,
+			);
+			path = MoviePlayer;
 			sourceTree = "<group>";
 		};
 		AAC078171D30FCBD007D08B4 = {
@@ -134,11 +157,9 @@
 			children = (
 				AAC078261D30FCBE007D08B4 /* AppDelegate.h */,
 				AAC078271D30FCBE007D08B4 /* AppDelegate.m */,
-				AAC078291D30FCBE007D08B4 /* ViewController.h */,
-				AAC0782A1D30FCBE007D08B4 /* ViewController.m */,
-				A06B45701D336B0000C8E683 /* Exotic_HomeTableViewController.h */,
-				A06B45711D336B0000C8E683 /* Exotic_HomeTableViewController.m */,
-				A06B45731D33730200C8E683 /* Animation */,
+				A06B45841D34EE2A00C8E683 /* Home */,
+				A06B457D1D34ED2500C8E683 /* Animation */,
+				A06B45881D34EE8900C8E683 /* MoviePlayer */,
 				AAC0782C1D30FCBE007D08B4 /* Main.storyboard */,
 				AAC0782F1D30FCBE007D08B4 /* Assets.xcassets */,
 				AAC078311D30FCBE007D08B4 /* LaunchScreen.storyboard */,
@@ -363,11 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06B45761D33732D00C8E683 /* Exotic_AnimationExample.m in Sources */,
-				A06B45721D336B0000C8E683 /* Exotic_HomeTableViewController.m in Sources */,
-				AAC0782B1D30FCBE007D08B4 /* ViewController.m in Sources */,
+				A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */,
+				A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */,
 				AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */,
+				A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */,
 				AAC078251D30FCBE007D08B4 /* main.m in Sources */,
+				A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
