@@ -9,6 +9,8 @@
 #import "Exotic_MovieViewController.h"
 #import "Masonry.h"
 #import <MediaPlayer/MediaPlayer.h>
+#import <AVKit/AVKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface Exotic_MovieViewController ()
 
@@ -25,7 +27,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL URLWithString:@"http://v.youku.com/v_show/id_XMTYxNDM4OTkyOA==.html?f=27629410&from=y1.2-3.4.7"]];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"02" ofType:@"mov"];
+    NSURL *url = [[NSURL alloc] initFileURLWithPath:path];
+    NSURL *urls = [NSURL URLWithString:@"https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"];
+    
+    self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:urls];
     [self.view insertSubview:[self.moviePlayer view] atIndex:10];
     [self.moviePlayer.view mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.top.right.equalTo(self.view);

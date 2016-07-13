@@ -71,5 +71,6 @@
 
 + (void)viewAnimationWithView:(UIView *)view;
 
++ (void)ViewKeyframeAnimationWithImageView:(UIImageView *)imageView;
 
 @end

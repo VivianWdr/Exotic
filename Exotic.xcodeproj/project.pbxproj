@@ -12,6 +12,7 @@
 		A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45811D34ED2500C8E683 /* Exotic_PageAnimationUtil.m */; };
 		A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */; };
 		A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */; };
+		A06B458D1D35C98E00C8E683 /* 02.mov in Resources */ = {isa = PBXBuildFile; fileRef = A06B458C1D35C98E00C8E683 /* 02.mov */; };
 		AAC078251D30FCBE007D08B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC078241D30FCBE007D08B4 /* main.m */; };
 		AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC078271D30FCBE007D08B4 /* AppDelegate.m */; };
 		AAC0782E1D30FCBE007D08B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC0782C1D30FCBE007D08B4 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_HomeTableViewController.m; sourceTree = "<group>"; };
 		A06B45891D34EEB900C8E683 /* Exotic_MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_MovieViewController.h; sourceTree = "<group>"; };
 		A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_MovieViewController.m; sourceTree = "<group>"; };
+		A06B458C1D35C98E00C8E683 /* 02.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 02.mov; sourceTree = "<group>"; };
 		AAC078201D30FCBE007D08B4 /* Exotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exotic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC078241D30FCBE007D08B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAC078261D30FCBE007D08B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		AAC078231D30FCBE007D08B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A06B458C1D35C98E00C8E683 /* 02.mov */,
 				AAC078241D30FCBE007D08B4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -309,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06B458D1D35C98E00C8E683 /* 02.mov in Resources */,
 				AAC078331D30FCBE007D08B4 /* LaunchScreen.storyboard in Resources */,
 				AAC078301D30FCBE007D08B4 /* Assets.xcassets in Resources */,
 				AAC0782E1D30FCBE007D08B4 /* Main.storyboard in Resources */,

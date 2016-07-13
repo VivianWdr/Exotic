@@ -27,6 +27,11 @@
 
 @implementation Exotic_PageAnimationUtil
 
+/**
+ *  CABasicAnimation
+ *
+ *  @param view Animation view
+ */
 + (void)viewAnimationWithView:(UIView *)view{
     //初始化动画对象
     CABasicAnimation *animation = [CABasicAnimation animation];
@@ -44,7 +49,7 @@
     
     //设置动画时长、重复次数等属性
     animation.duration = 2;
-    animation.repeatCount = 1;//MAXFLOAT
+    animation.repeatCount = MAXFLOAT;//重复
     //设置动画结束后是否返回原位
     animation.removedOnCompletion = NO;
     animation.fillMode = kCAFillModeForwards;
@@ -53,4 +58,35 @@
     [view.layer addAnimation:animation forKey:nil];
 }
 
+/**
+ *  关键帧动画
+ *
+ *  @param imageView
+ */
++ (void)ViewKeyframeAnimationWithImageView:(UIImageView *)imageView{
+    
+    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
+    
+    animation.keyPath = @"position";
+    
+    //获取初始化position
+    CGPoint orignalPosition = imageView.layer.position;
+    CGFloat originalX = orignalPosition.x;
+    CGFloat originalY = orignalPosition.y;
+    
+    //移动大小
+    CGFloat moveMargin = 20;
+    
+    //设置Values属性
+    NSValue *value1 = [NSValue valueWithCGPoint:CGPointMake(originalX + moveMargin, originalY + moveMargin)];
+    NSValue *value2 = [NSValue valueWithCGPoint:CGPointMake(originalX + 2 * moveMargin, originalY)];
+    NSValue *value3 = [NSValue valueWithCGPoint:CGPointMake(originalX + moveMargin, originalY - moveMargin)];
+    NSValue *value4 = [NSValue valueWithCGPoint:orignalPosition];
+    //思考：开头不添加value4的动画效果
+    animation.values = @[value4,value1, value2, value3,value4];
+
+    animation.duration = 2;
+    animation.repeatCount = MAXFLOAT;
+    [imageView.layer addAnimation:animation forKey:nil];
+}
 @end

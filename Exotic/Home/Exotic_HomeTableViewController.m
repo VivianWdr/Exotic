@@ -23,7 +23,7 @@
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
     
-    [self addCell:@"CAAimation" class:@"Exotic_AnimationExample"];
+    [self addCell:@"CAAnimation" class:@"Exotic_AnimationExample"];
     [self addCell:@"MoviePlayer" class:@"Exotic_MovieViewController"];
     [self.tableView reloadData];
     
