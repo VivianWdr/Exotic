@@ -13,6 +13,9 @@
 		A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */; };
 		A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */; };
 		A06B458D1D35C98E00C8E683 /* 02.mov in Resources */ = {isa = PBXBuildFile; fileRef = A06B458C1D35C98E00C8E683 /* 02.mov */; };
+		A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */; };
+		A0C130831D3648DA0022BC72 /* HCKeyFrameAnimationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C130811D3648DA0022BC72 /* HCKeyFrameAnimationView.xib */; };
+		A0C130861D3649370022BC72 /* Exotic_AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C130851D3649370022BC72 /* Exotic_AnimationViewController.m */; };
 		AAC078251D30FCBE007D08B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC078241D30FCBE007D08B4 /* main.m */; };
 		AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC078271D30FCBE007D08B4 /* AppDelegate.m */; };
 		AAC0782E1D30FCBE007D08B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC0782C1D30FCBE007D08B4 /* Main.storyboard */; };
@@ -51,6 +54,11 @@
 		A06B45891D34EEB900C8E683 /* Exotic_MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_MovieViewController.h; sourceTree = "<group>"; };
 		A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_MovieViewController.m; sourceTree = "<group>"; };
 		A06B458C1D35C98E00C8E683 /* 02.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 02.mov; sourceTree = "<group>"; };
+		A0C1307F1D3648DA0022BC72 /* HCKeyFrameAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKeyFrameAnimationView.h; sourceTree = "<group>"; };
+		A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKeyFrameAnimationView.m; sourceTree = "<group>"; };
+		A0C130811D3648DA0022BC72 /* HCKeyFrameAnimationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCKeyFrameAnimationView.xib; sourceTree = "<group>"; };
+		A0C130841D3649370022BC72 /* Exotic_AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_AnimationViewController.h; sourceTree = "<group>"; };
+		A0C130851D3649370022BC72 /* Exotic_AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_AnimationViewController.m; sourceTree = "<group>"; };
 		AAC078201D30FCBE007D08B4 /* Exotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exotic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC078241D30FCBE007D08B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAC078261D30FCBE007D08B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,10 +114,8 @@
 		A06B457D1D34ED2500C8E683 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				A06B457E1D34ED2500C8E683 /* Exotic_AnimationExample.h */,
-				A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */,
-				A06B45801D34ED2500C8E683 /* Exotic_PageAnimationUtil.h */,
-				A06B45811D34ED2500C8E683 /* Exotic_PageAnimationUtil.m */,
+				A0C130881D3649660022BC72 /* Controller */,
+				A0C130871D36494F0022BC72 /* View */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -130,6 +136,29 @@
 				A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */,
 			);
 			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
+		A0C130871D36494F0022BC72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A06B45801D34ED2500C8E683 /* Exotic_PageAnimationUtil.h */,
+				A06B45811D34ED2500C8E683 /* Exotic_PageAnimationUtil.m */,
+				A0C1307F1D3648DA0022BC72 /* HCKeyFrameAnimationView.h */,
+				A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */,
+				A0C130811D3648DA0022BC72 /* HCKeyFrameAnimationView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0C130881D3649660022BC72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A06B457E1D34ED2500C8E683 /* Exotic_AnimationExample.h */,
+				A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */,
+				A0C130841D3649370022BC72 /* Exotic_AnimationViewController.h */,
+				A0C130851D3649370022BC72 /* Exotic_AnimationViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		AAC078171D30FCBD007D08B4 = {
@@ -312,6 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C130831D3648DA0022BC72 /* HCKeyFrameAnimationView.xib in Resources */,
 				A06B458D1D35C98E00C8E683 /* 02.mov in Resources */,
 				AAC078331D30FCBE007D08B4 /* LaunchScreen.storyboard in Resources */,
 				AAC078301D30FCBE007D08B4 /* Assets.xcassets in Resources */,
@@ -388,7 +418,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */,
 				A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */,
+				A0C130861D3649370022BC72 /* Exotic_AnimationViewController.m in Sources */,
 				A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */,
 				AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */,
 				A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */,
