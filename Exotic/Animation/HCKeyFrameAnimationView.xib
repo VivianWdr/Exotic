@@ -11,17 +11,26 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Contacts-50" translatesAutoresizingMaskIntoConstraints="NO" id="Yme-0n-TcE">
-                    <rect key="frame" x="292" y="50" width="75" height="75"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter-50" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-F8-Nfj">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Twitter-50" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-F8-Nfj">
                     <rect key="frame" x="172" y="63" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="dev-Bu-g0Q"/>
+                        <constraint firstAttribute="width" constant="30" id="kAL-ug-5R1"/>
+                    </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Search-50" translatesAutoresizingMaskIntoConstraints="NO" id="Mo9-Nk-Lt1">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Search-50" translatesAutoresizingMaskIntoConstraints="NO" id="Mo9-Nk-Lt1">
                     <rect key="frame" x="26" y="63" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Ftb-dE-D2F"/>
+                        <constraint firstAttribute="height" constant="50" id="OVg-b3-i7h"/>
+                    </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-Zr-IBi">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-Zr-IBi">
                     <rect key="frame" x="172" y="148" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="crS-t0-jYy"/>
+                        <constraint firstAttribute="height" constant="30" id="lRQ-XO-UPd"/>
+                    </constraints>
                     <state key="normal" backgroundImage="Play-50">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -29,15 +38,40 @@
                         <action selector="clickPlay:" destination="iN0-l3-epB" eventType="touchUpInside" id="iaZ-oe-uP4"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Contacts-50" translatesAutoresizingMaskIntoConstraints="NO" id="Yme-0n-TcE">
+                    <rect key="frame" x="292" y="50" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="3yQ-eJ-sw2"/>
+                        <constraint firstAttribute="height" constant="75" id="RqU-W6-jPQ"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ok-21-8fo">
+                    <rect key="frame" x="49" y="181" width="90" height="30"/>
+                    <state key="normal" title="Block"/>
+                    <connections>
+                        <action selector="blockPlay:" destination="iN0-l3-epB" eventType="touchUpInside" id="UPU-sW-LKU"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Mo9-Nk-Lt1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="63" id="2lP-xa-kkb"/>
+                <constraint firstItem="9LV-F8-Nfj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EhE-cp-0y8"/>
+                <constraint firstItem="Yme-0n-TcE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="Oda-BP-fGb"/>
+                <constraint firstAttribute="bottom" secondItem="tbH-Zr-IBi" secondAttribute="bottom" constant="41" id="fyI-aR-ft0"/>
+                <constraint firstAttribute="trailing" secondItem="Yme-0n-TcE" secondAttribute="trailing" constant="8" id="n5V-TB-0AJ"/>
+                <constraint firstItem="9LV-F8-Nfj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="63" id="nXI-ii-sPZ"/>
+                <constraint firstItem="Mo9-Nk-Lt1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="ucy-dF-XjW"/>
+                <constraint firstAttribute="trailing" secondItem="tbH-Zr-IBi" secondAttribute="trailing" constant="173" id="wR5-tb-fm8"/>
+                <constraint firstItem="tbH-Zr-IBi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="172" id="ynb-sT-fwM"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="birdImageView" destination="9LV-F8-Nfj" id="nMC-Uh-Yxb"/>
                 <outlet property="iconImageView" destination="Yme-0n-TcE" id="EDk-7R-JGv"/>
                 <outlet property="searchImageView" destination="Mo9-Nk-Lt1" id="EeR-uJ-CCi"/>
             </connections>
-            <point key="canvasLocation" x="-467.5" y="354.5"/>
+            <point key="canvasLocation" x="-222.5" y="355.5"/>
         </view>
     </objects>
     <resources>

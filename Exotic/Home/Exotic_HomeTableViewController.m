@@ -25,8 +25,8 @@
     
     [self addCell:@"CAAnimation" class:@"Exotic_AnimationExample"];
     [self addCell:@"MoviePlayer" class:@"Exotic_MovieViewController"];
+    [self addCell:@"testBlock" class:@"TestBlockViewController"];
     [self.tableView reloadData];
-    
 }
 
 -(void) addCell:(NSString *)title class:(NSString *)className{
@@ -67,14 +67,6 @@
     }
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -7,8 +7,10 @@
 //
 
 #import "Exotic_AnimationViewController.h"
+#import "HCKeyFrameAnimationView.h"
 
 @interface Exotic_AnimationViewController ()
+@property (nonatomic, weak) HCKeyFrameAnimationView *keyFrameAnimationView;
 
 @end
 
@@ -17,7 +19,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
+    [self keyFrameAnimationView];
+}
+
+-(HCKeyFrameAnimationView *)keyFrameAnimationView{
+    if (_keyFrameAnimationView == nil) {
+        HCKeyFrameAnimationView *keyFrameAnimationView = [HCKeyFrameAnimationView keyFrameAnimationView];
+        _keyFrameAnimationView = keyFrameAnimationView;
+        
+        //设置frame
+        keyFrameAnimationView.frame = CGRectMake(0, 190, 375, 219);
+        
+        [self.view addSubview:keyFrameAnimationView];
+    }
+    return _keyFrameAnimationView;
 }
 
 - (void)didReceiveMemoryWarning {

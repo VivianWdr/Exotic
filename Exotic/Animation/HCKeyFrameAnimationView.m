@@ -7,6 +7,7 @@
 //
 
 #import "HCKeyFrameAnimationView.h"
+#import "Masonry.h"
 
 @interface HCKeyFrameAnimationView ()
 
@@ -18,6 +19,13 @@
 @end
 
 @implementation HCKeyFrameAnimationView
+
+- (IBAction)blockPlay:(id)sender {
+    
+    
+}
+
+
 - (IBAction)clickPlay:(id)sender {
     [self moveBirdView];
     
@@ -25,6 +33,24 @@
     
     [self shakeIconView];
     
+    UIView *view1 = ({
+        UIView *view = [UIView new];
+        view.backgroundColor = [UIColor redColor];
+        [self addSubview:view];
+        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.offset(10);
+            make.top.offset(10);
+            make.size.mas_offset(CGSizeMake(30, 30));
+        }];
+        view;
+    });
+    [view1 mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.left.offset(100);
+        make.size.mas_offset(CGSizeMake(90, 90));
+    }];
+    [UIView animateWithDuration:2 animations:^{
+        [view1 layoutIfNeeded];
+    }];
 }
 
 +(instancetype) keyFrameAnimationView{

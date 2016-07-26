@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6A84DD39A3F59E041E4A3D62 /* libPods-Exotic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */; };
+		A0351B081D45C435006A671C /* TestBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0351B061D45C435006A671C /* TestBlockViewController.m */; };
+		A0351B091D45C435006A671C /* TestBlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0351B071D45C435006A671C /* TestBlockViewController.xib */; };
+		A0351B0C1D45CB49006A671C /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = A0351B0B1D45CB49006A671C /* Task.m */; };
+		A0351B101D4602DB006A671C /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0351B0E1D4602DB006A671C /* BViewController.m */; };
+		A0351B111D4602DB006A671C /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0351B0F1D4602DB006A671C /* BViewController.xib */; };
 		A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */; };
 		A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45811D34ED2500C8E683 /* Exotic_PageAnimationUtil.m */; };
 		A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */; };
 		A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */; };
 		A06B458D1D35C98E00C8E683 /* 02.mov in Resources */ = {isa = PBXBuildFile; fileRef = A06B458C1D35C98E00C8E683 /* 02.mov */; };
+		A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */; };
+		A08802A31D3C689B00696C05 /* Exotic_CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */; };
 		A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */; };
 		A0C130831D3648DA0022BC72 /* HCKeyFrameAnimationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C130811D3648DA0022BC72 /* HCKeyFrameAnimationView.xib */; };
 		A0C130861D3649370022BC72 /* Exotic_AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C130851D3649370022BC72 /* Exotic_AnimationViewController.m */; };
@@ -45,6 +52,14 @@
 /* Begin PBXFileReference section */
 		0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exotic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7437BDF218427E4926252 /* Pods-Exotic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exotic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Exotic/Pods-Exotic.release.xcconfig"; sourceTree = "<group>"; };
+		A0351B051D45C435006A671C /* TestBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBlockViewController.h; sourceTree = "<group>"; };
+		A0351B061D45C435006A671C /* TestBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBlockViewController.m; sourceTree = "<group>"; };
+		A0351B071D45C435006A671C /* TestBlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestBlockViewController.xib; sourceTree = "<group>"; };
+		A0351B0A1D45CB49006A671C /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		A0351B0B1D45CB49006A671C /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		A0351B0D1D4602DB006A671C /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		A0351B0E1D4602DB006A671C /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		A0351B0F1D4602DB006A671C /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
 		A06B457E1D34ED2500C8E683 /* Exotic_AnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_AnimationExample.h; sourceTree = "<group>"; };
 		A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_AnimationExample.m; sourceTree = "<group>"; };
 		A06B45801D34ED2500C8E683 /* Exotic_PageAnimationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_PageAnimationUtil.h; sourceTree = "<group>"; };
@@ -54,6 +69,9 @@
 		A06B45891D34EEB900C8E683 /* Exotic_MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_MovieViewController.h; sourceTree = "<group>"; };
 		A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_MovieViewController.m; sourceTree = "<group>"; };
 		A06B458C1D35C98E00C8E683 /* 02.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 02.mov; sourceTree = "<group>"; };
+		A088029F1D3C689B00696C05 /* Exotic_CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_CollectionViewController.h; sourceTree = "<group>"; };
+		A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_CollectionViewController.m; sourceTree = "<group>"; };
+		A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Exotic_CollectionViewController.xib; sourceTree = "<group>"; };
 		A0C1307F1D3648DA0022BC72 /* HCKeyFrameAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKeyFrameAnimationView.h; sourceTree = "<group>"; };
 		A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKeyFrameAnimationView.m; sourceTree = "<group>"; };
 		A0C130811D3648DA0022BC72 /* HCKeyFrameAnimationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCKeyFrameAnimationView.xib; sourceTree = "<group>"; };
@@ -111,6 +129,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A0351B041D45C406006A671C /* TestBlock */ = {
+			isa = PBXGroup;
+			children = (
+				A0351B051D45C435006A671C /* TestBlockViewController.h */,
+				A0351B061D45C435006A671C /* TestBlockViewController.m */,
+				A0351B071D45C435006A671C /* TestBlockViewController.xib */,
+				A0351B0D1D4602DB006A671C /* BViewController.h */,
+				A0351B0E1D4602DB006A671C /* BViewController.m */,
+				A0351B0F1D4602DB006A671C /* BViewController.xib */,
+				A0351B0A1D45CB49006A671C /* Task.h */,
+				A0351B0B1D45CB49006A671C /* Task.m */,
+			);
+			name = TestBlock;
+			path = Home;
+			sourceTree = "<group>";
+		};
 		A06B457D1D34ED2500C8E683 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +157,7 @@
 		A06B45841D34EE2A00C8E683 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A088029E1D3C687E00696C05 /* Collection */,
 				A06B45851D34EE2A00C8E683 /* Exotic_HomeTableViewController.h */,
 				A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */,
 			);
@@ -136,6 +171,17 @@
 				A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */,
 			);
 			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
+		A088029E1D3C687E00696C05 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				A088029F1D3C689B00696C05 /* Exotic_CollectionViewController.h */,
+				A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */,
+				A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */,
+			);
+			name = Collection;
+			path = ../Animation;
 			sourceTree = "<group>";
 		};
 		A0C130871D36494F0022BC72 /* View */ = {
@@ -189,6 +235,7 @@
 				AAC078261D30FCBE007D08B4 /* AppDelegate.h */,
 				AAC078271D30FCBE007D08B4 /* AppDelegate.m */,
 				A06B45841D34EE2A00C8E683 /* Home */,
+				A0351B041D45C406006A671C /* TestBlock */,
 				A06B457D1D34ED2500C8E683 /* Animation */,
 				A06B45881D34EE8900C8E683 /* MoviePlayer */,
 				AAC0782C1D30FCBE007D08B4 /* Main.storyboard */,
@@ -343,8 +390,11 @@
 			files = (
 				A0C130831D3648DA0022BC72 /* HCKeyFrameAnimationView.xib in Resources */,
 				A06B458D1D35C98E00C8E683 /* 02.mov in Resources */,
+				A0351B091D45C435006A671C /* TestBlockViewController.xib in Resources */,
 				AAC078331D30FCBE007D08B4 /* LaunchScreen.storyboard in Resources */,
 				AAC078301D30FCBE007D08B4 /* Assets.xcassets in Resources */,
+				A0351B111D4602DB006A671C /* BViewController.xib in Resources */,
+				A08802A31D3C689B00696C05 /* Exotic_CollectionViewController.xib in Resources */,
 				AAC0782E1D30FCBE007D08B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,11 +469,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */,
+				A0351B101D4602DB006A671C /* BViewController.m in Sources */,
 				A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */,
 				A0C130861D3649370022BC72 /* Exotic_AnimationViewController.m in Sources */,
+				A0351B0C1D45CB49006A671C /* Task.m in Sources */,
 				A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */,
+				A0351B081D45C435006A671C /* TestBlockViewController.m in Sources */,
 				AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */,
 				A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */,
+				A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */,
 				AAC078251D30FCBE007D08B4 /* main.m in Sources */,
 				A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */,
 			);

@@ -7,7 +7,6 @@
 //
 
 #import "Exotic_AnimationExample.h"
-#import "Exotic_PageAnimationUtil.h"
 #import "Masonry.h"
 
 @interface Exotic_AnimationExample ()
@@ -42,8 +41,6 @@ UITableViewDataSource
     
     [self addCell:@"Basic" class:@"Exotic_AnimationViewController"];
     
-//    [self initMoveView];
-//    [self initWithCABasicAnimation];
 }
 
 - (UITableView *)tableView{
@@ -79,6 +76,7 @@ UITableViewDataSource
     if (!cell) {
         cell =[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"AnimationCell"];
     }
+    cell.textLabel.text = self.titleName[indexPath.row];
     return cell;
 }
 
@@ -96,77 +94,6 @@ UITableViewDataSource
     }
     
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
-}
-
-/**
- *  coreAnimation的实现
- */
-- (void)initMoveView{
-    __weak typeof(self) weakSelf = self;
-//    self.moveView = ({
-//        UIView *view = [UIView new];
-//        [self.view addSubview:view];
-//        view.backgroundColor = [UIColor grayColor];
-//        
-//        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.top.offset(50);
-//            make.left.offset(50);
-//            make.size.mas_offset(CGSizeMake(50, 50));
-//        }];
-//        view;
-//    });
-
-
-    self.searchImageView = ({
-        UIImageView *view = [[UIImageView alloc] init];
-        view.image = [UIImage imageNamed:@"Search-50"];
-        [self.view addSubview:view];
-        
-        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(weakSelf.view).offset(50);
-            make.top.equalTo(weakSelf.view).offset(120);
-            make.size.mas_offset(CGSizeMake(30, 30));
-        }];
-        view;
-    });
-    
-//    self.birdImageView = ({
-//        UIImageView *view = [UIImageView new];
-//        view.image = [UIImage imageNamed:@"Twitter-50"];
-//        [self.view addSubview:view];
-//        
-//        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.top.equalTo(weakSelf.searchImageView);
-//            make.left.equalTo(weakSelf.searchImageView.mas_right).offset(30);
-//            make.size.equalTo(weakSelf.searchImageView);
-//        }];
-//        view;
-//    });
-//    
-//    self.shakeImageView = ({
-//        UIImageView *view = [UIImageView new];
-//        view.image = [UIImage imageNamed:@"Contacts-50"];
-//        [self.view addSubview:view];
-//        
-//        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.left.equalTo(weakSelf.birdImageView.mas_right).offset(30);
-//            make.top.equalTo(weakSelf.birdImageView);
-//            make.size.equalTo(weakSelf.birdImageView);
-//        }];
-//        view;
-//    });
-}
-
-- (void)initWithCABasicAnimation{
-
-    [UIView animateWithDuration:2 delay:1 options:UIViewAnimationOptionLayoutSubviews animations:^{
-        [self.searchImageView mas_updateConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self.view).offset(220);
-        }];
-        [self.view layoutIfNeeded];
-    } completion:nil];
-//    [Exotic_PageAnimationUtil viewAnimationWithView:self.moveView];
-//    [Exotic_PageAnimationUtil ViewKeyframeAnimationWithImageView:self.searchImageView];
 }
 
 - (void)didReceiveMemoryWarning {
