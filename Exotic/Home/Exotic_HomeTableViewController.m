@@ -26,6 +26,7 @@
     [self addCell:@"CAAnimation" class:@"Exotic_AnimationExample"];
     [self addCell:@"MoviePlayer" class:@"Exotic_MovieViewController"];
     [self addCell:@"testBlock" class:@"TestBlockViewController"];
+    [self addCell:@"GCD" class:@"GCDViewController"];
     [self.tableView reloadData];
 }
 

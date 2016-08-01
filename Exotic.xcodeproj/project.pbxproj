@@ -18,6 +18,9 @@
 		A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */; };
 		A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */; };
 		A06B458D1D35C98E00C8E683 /* 02.mov in Resources */ = {isa = PBXBuildFile; fileRef = A06B458C1D35C98E00C8E683 /* 02.mov */; };
+		A06EFDEB1D4F396700F484A2 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06EFDE91D4F396700F484A2 /* GCDViewController.m */; };
+		A06EFDEC1D4F396700F484A2 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06EFDEA1D4F396700F484A2 /* GCDViewController.xib */; };
+		A06EFDEF1D4F513C00F484A2 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06EFDEE1D4F513C00F484A2 /* NavigationViewController.m */; };
 		A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */; };
 		A08802A31D3C689B00696C05 /* Exotic_CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */; };
 		A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */; };
@@ -69,6 +72,11 @@
 		A06B45891D34EEB900C8E683 /* Exotic_MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_MovieViewController.h; sourceTree = "<group>"; };
 		A06B458A1D34EEB900C8E683 /* Exotic_MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_MovieViewController.m; sourceTree = "<group>"; };
 		A06B458C1D35C98E00C8E683 /* 02.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 02.mov; sourceTree = "<group>"; };
+		A06EFDE81D4F396700F484A2 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		A06EFDE91D4F396700F484A2 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		A06EFDEA1D4F396700F484A2 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
+		A06EFDED1D4F513C00F484A2 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		A06EFDEE1D4F513C00F484A2 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		A088029F1D3C689B00696C05 /* Exotic_CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_CollectionViewController.h; sourceTree = "<group>"; };
 		A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_CollectionViewController.m; sourceTree = "<group>"; };
 		A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Exotic_CollectionViewController.xib; sourceTree = "<group>"; };
@@ -173,6 +181,16 @@
 			path = MoviePlayer;
 			sourceTree = "<group>";
 		};
+		A06EFDE71D4F388100F484A2 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A06EFDE81D4F396700F484A2 /* GCDViewController.h */,
+				A06EFDE91D4F396700F484A2 /* GCDViewController.m */,
+				A06EFDEA1D4F396700F484A2 /* GCDViewController.xib */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
 		A088029E1D3C687E00696C05 /* Collection */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +253,7 @@
 				AAC078261D30FCBE007D08B4 /* AppDelegate.h */,
 				AAC078271D30FCBE007D08B4 /* AppDelegate.m */,
 				A06B45841D34EE2A00C8E683 /* Home */,
+				A06EFDE71D4F388100F484A2 /* GCD */,
 				A0351B041D45C406006A671C /* TestBlock */,
 				A06B457D1D34ED2500C8E683 /* Animation */,
 				A06B45881D34EE8900C8E683 /* MoviePlayer */,
@@ -243,6 +262,8 @@
 				AAC078311D30FCBE007D08B4 /* LaunchScreen.storyboard */,
 				AAC078341D30FCBE007D08B4 /* Info.plist */,
 				AAC078231D30FCBE007D08B4 /* Supporting Files */,
+				A06EFDED1D4F513C00F484A2 /* NavigationViewController.h */,
+				A06EFDEE1D4F513C00F484A2 /* NavigationViewController.m */,
 			);
 			path = Exotic;
 			sourceTree = "<group>";
@@ -391,6 +412,7 @@
 				A0C130831D3648DA0022BC72 /* HCKeyFrameAnimationView.xib in Resources */,
 				A06B458D1D35C98E00C8E683 /* 02.mov in Resources */,
 				A0351B091D45C435006A671C /* TestBlockViewController.xib in Resources */,
+				A06EFDEC1D4F396700F484A2 /* GCDViewController.xib in Resources */,
 				AAC078331D30FCBE007D08B4 /* LaunchScreen.storyboard in Resources */,
 				AAC078301D30FCBE007D08B4 /* Assets.xcassets in Resources */,
 				A0351B111D4602DB006A671C /* BViewController.xib in Resources */,
@@ -470,6 +492,7 @@
 			files = (
 				A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */,
 				A0351B101D4602DB006A671C /* BViewController.m in Sources */,
+				A06EFDEF1D4F513C00F484A2 /* NavigationViewController.m in Sources */,
 				A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */,
 				A0C130861D3649370022BC72 /* Exotic_AnimationViewController.m in Sources */,
 				A0351B0C1D45CB49006A671C /* Task.m in Sources */,
@@ -477,6 +500,7 @@
 				A0351B081D45C435006A671C /* TestBlockViewController.m in Sources */,
 				AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */,
 				A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */,
+				A06EFDEB1D4F396700F484A2 /* GCDViewController.m in Sources */,
 				A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */,
 				AAC078251D30FCBE007D08B4 /* main.m in Sources */,
 				A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */,

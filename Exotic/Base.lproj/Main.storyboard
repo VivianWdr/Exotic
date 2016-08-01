@@ -26,7 +26,7 @@
         <!--Item-->
         <scene sceneID="lhp-wQ-aMn">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FMK-dw-pGK" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="FMK-dw-pGK" customClass="NavigationViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="8JO-TU-8kR"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
