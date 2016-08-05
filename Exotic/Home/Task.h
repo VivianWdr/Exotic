@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^ CallbackBlock) (void);
+
 @interface Task : NSObject
 
--(void) beginTaskCallbackBlock:(void (^) (void))callbackBlock;
+@property (nonatomic,copy) CallbackBlock callbackBlock;
+
+-(void) beginTaskCallbackBlock:(CallbackBlock)callbackBlock;
 
 @end

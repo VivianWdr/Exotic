@@ -27,10 +27,13 @@
     [self addCell:@"MoviePlayer" class:@"Exotic_MovieViewController"];
     [self addCell:@"testBlock" class:@"TestBlockViewController"];
     [self addCell:@"GCD" class:@"GCDViewController"];
+    [self addCell:@"NSOperation" class:@"OperaationViewController"];
+    [self addCell:@"CodeGraphics" class:@"CoreGraphicsViewController"];
+    
     [self.tableView reloadData];
 }
 
--(void) addCell:(NSString *)title class:(NSString *)className{
+-(void)addCell:(NSString *)title class:(NSString *)className{
     [self.titles addObject:title];
     [self.classNames addObject:className];
 }

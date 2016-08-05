@@ -76,11 +76,23 @@
                         <constraint firstAttribute="width" constant="122" id="c4W-TW-cgF"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZx-yl-CT7">
+                    <rect key="frame" x="115" y="387" width="90" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="DJP-Zf-k1b"/>
+                        <constraint firstAttribute="width" constant="90" id="xhd-KL-N3j"/>
+                    </constraints>
+                    <state key="normal" title="延迟执行操作"/>
+                    <connections>
+                        <action selector="after:" destination="-1" eventType="touchUpInside" id="m1P-7N-dnR"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="fTi-v1-HQl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3BO-FD-LOL"/>
                 <constraint firstItem="lIZ-CN-rlA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4OR-GM-rlI"/>
+                <constraint firstItem="EZx-yl-CT7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HoC-MZ-9vZ"/>
                 <constraint firstItem="GXY-ym-7rv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="I2r-KB-Xqa"/>
                 <constraint firstItem="lIZ-CN-rlA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="147" id="Lif-2p-QN9"/>
                 <constraint firstItem="kOv-71-PHn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="ULX-kH-Dop"/>
@@ -91,6 +103,7 @@
                 <constraint firstItem="hNe-P4-De9" firstAttribute="top" secondItem="GXY-ym-7rv" secondAttribute="bottom" constant="30" id="rT3-dt-xcC"/>
                 <constraint firstItem="fTi-v1-HQl" firstAttribute="top" secondItem="hNe-P4-De9" secondAttribute="bottom" constant="30" id="sbn-nN-sYs"/>
                 <constraint firstItem="hNe-P4-De9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tLI-Ix-MyW"/>
+                <constraint firstItem="EZx-yl-CT7" firstAttribute="top" secondItem="fTi-v1-HQl" secondAttribute="bottom" constant="30" id="vRf-mG-pf9"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>

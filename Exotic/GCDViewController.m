@@ -37,6 +37,7 @@
  *
  *  @param sender UIButton
  */
+
 - (IBAction)clickBasic1:(UIButton *)sender {
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     
@@ -114,10 +115,60 @@
         });
     });
 }
+/**
+ *  队列组dispatch group(并行队列)
+ *
+ *  @param sender UIButton
+ */
 - (IBAction)startGroupTask:(UIButton *)sender {
     
-    dispatch_queue_t queue = dispatch_group_create();
+    dispatch_group_t group = dispatch_group_create();
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     
+    dispatch_group_async(group, queue, ^{
+        NSString *imageUrl = @"http://pic3.nipic.com/20090625/389213_182209008_2.jpg";
+        NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageUrl]];
+        UIImage *image = [UIImage imageWithData:data];
+        NSLog(@"1___________%@",[NSThread currentThread]);
+        
+        //返回主线程设置UI
+        dispatch_async(dispatch_get_main_queue(), ^{
+            _icon.image = image;
+            NSLog(@"2__________%@",[NSThread currentThread]);
+        });
+    });
+    
+    dispatch_group_async(group, queue, ^{
+        NSString *imageUrl = @"http://pic3.nipic.com/20090625/389213_182209008_2.jpg";
+        NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageUrl]];
+        UIImage *image = [UIImage imageWithData:data];
+        NSLog(@"111___________%@",[NSThread currentThread]);
+        
+        //返回主线程设置UI
+        dispatch_async(dispatch_get_main_queue(), ^{
+            _icon1.image = image;
+            NSLog(@"22__________%@",[NSThread currentThread]);
+        });
+    });
+    
+    //任务组中的任务完成后，执行的动作
+    dispatch_group_notify(group, queue, ^{
+        NSLog(@"3--%@", [NSThread currentThread]);
+    });
+}
+
+/**
+ *  延迟执行操作
+ *
+ *  @param sender <#sender description#>
+ */
+- (IBAction)after:(UIButton *)sender {
+    
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), queue, ^{
+        NSLog(@"延迟2.0秒后打印出来的日志！");
+    });
 }
 
 - (void)didReceiveMemoryWarning {

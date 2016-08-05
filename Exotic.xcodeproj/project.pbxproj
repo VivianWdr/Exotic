@@ -13,6 +13,8 @@
 		A0351B0C1D45CB49006A671C /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = A0351B0B1D45CB49006A671C /* Task.m */; };
 		A0351B101D4602DB006A671C /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0351B0E1D4602DB006A671C /* BViewController.m */; };
 		A0351B111D4602DB006A671C /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0351B0F1D4602DB006A671C /* BViewController.xib */; };
+		A04FF43D1D546642005CF59E /* CoreGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04FF43B1D546642005CF59E /* CoreGraphicsViewController.m */; };
+		A04FF43E1D546642005CF59E /* CoreGraphicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A04FF43C1D546642005CF59E /* CoreGraphicsViewController.xib */; };
 		A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */; };
 		A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45811D34ED2500C8E683 /* Exotic_PageAnimationUtil.m */; };
 		A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B45861D34EE2A00C8E683 /* Exotic_HomeTableViewController.m */; };
@@ -21,6 +23,8 @@
 		A06EFDEB1D4F396700F484A2 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06EFDE91D4F396700F484A2 /* GCDViewController.m */; };
 		A06EFDEC1D4F396700F484A2 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06EFDEA1D4F396700F484A2 /* GCDViewController.xib */; };
 		A06EFDEF1D4F513C00F484A2 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06EFDEE1D4F513C00F484A2 /* NavigationViewController.m */; };
+		A06EFDF41D52F03400F484A2 /* OperaationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06EFDF21D52F03400F484A2 /* OperaationViewController.m */; };
+		A06EFDF51D52F03400F484A2 /* OperaationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06EFDF31D52F03400F484A2 /* OperaationViewController.xib */; };
 		A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */; };
 		A08802A31D3C689B00696C05 /* Exotic_CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */; };
 		A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */; };
@@ -36,6 +40,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A04FF5AA1D548C0B005CF59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A04FF5A51D548C0B005CF59E /* 侧滑菜单.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA8894071B53E3FF00B47DE7;
+			remoteInfo = "侧滑菜单";
+		};
+		A04FF5AC1D548C0B005CF59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A04FF5A51D548C0B005CF59E /* 侧滑菜单.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA8894201B53E3FF00B47DE7;
+			remoteInfo = "侧滑菜单Tests";
+		};
 		AAC0783A1D30FCBE007D08B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AAC078181D30FCBE007D08B4 /* Project object */;
@@ -63,6 +81,10 @@
 		A0351B0D1D4602DB006A671C /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		A0351B0E1D4602DB006A671C /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		A0351B0F1D4602DB006A671C /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
+		A04FF43A1D546642005CF59E /* CoreGraphicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsViewController.h; sourceTree = "<group>"; };
+		A04FF43B1D546642005CF59E /* CoreGraphicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsViewController.m; sourceTree = "<group>"; };
+		A04FF43C1D546642005CF59E /* CoreGraphicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreGraphicsViewController.xib; sourceTree = "<group>"; };
+		A04FF5A51D548C0B005CF59E /* 侧滑菜单.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "侧滑菜单.xcodeproj"; path = "侧滑菜单/侧滑菜单.xcodeproj"; sourceTree = "<group>"; };
 		A06B457E1D34ED2500C8E683 /* Exotic_AnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_AnimationExample.h; sourceTree = "<group>"; };
 		A06B457F1D34ED2500C8E683 /* Exotic_AnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_AnimationExample.m; sourceTree = "<group>"; };
 		A06B45801D34ED2500C8E683 /* Exotic_PageAnimationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_PageAnimationUtil.h; sourceTree = "<group>"; };
@@ -77,6 +99,9 @@
 		A06EFDEA1D4F396700F484A2 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
 		A06EFDED1D4F513C00F484A2 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		A06EFDEE1D4F513C00F484A2 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		A06EFDF11D52F03400F484A2 /* OperaationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperaationViewController.h; sourceTree = "<group>"; };
+		A06EFDF21D52F03400F484A2 /* OperaationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperaationViewController.m; sourceTree = "<group>"; };
+		A06EFDF31D52F03400F484A2 /* OperaationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OperaationViewController.xib; sourceTree = "<group>"; };
 		A088029F1D3C689B00696C05 /* Exotic_CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_CollectionViewController.h; sourceTree = "<group>"; };
 		A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_CollectionViewController.m; sourceTree = "<group>"; };
 		A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Exotic_CollectionViewController.xib; sourceTree = "<group>"; };
@@ -153,6 +178,25 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		A04FF4391D546618005CF59E /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				A04FF43A1D546642005CF59E /* CoreGraphicsViewController.h */,
+				A04FF43B1D546642005CF59E /* CoreGraphicsViewController.m */,
+				A04FF43C1D546642005CF59E /* CoreGraphicsViewController.xib */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		A04FF5A61D548C0B005CF59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04FF5AB1D548C0B005CF59E /* 侧滑菜单.app */,
+				A04FF5AD1D548C0B005CF59E /* 侧滑菜单Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A06B457D1D34ED2500C8E683 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +233,16 @@
 				A06EFDEA1D4F396700F484A2 /* GCDViewController.xib */,
 			);
 			name = GCD;
+			sourceTree = "<group>";
+		};
+		A06EFDF01D52EF2800F484A2 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				A06EFDF11D52F03400F484A2 /* OperaationViewController.h */,
+				A06EFDF21D52F03400F484A2 /* OperaationViewController.m */,
+				A06EFDF31D52F03400F484A2 /* OperaationViewController.xib */,
+			);
+			name = Operation;
 			sourceTree = "<group>";
 		};
 		A088029E1D3C687E00696C05 /* Collection */ = {
@@ -228,6 +282,7 @@
 		AAC078171D30FCBD007D08B4 = {
 			isa = PBXGroup;
 			children = (
+				A04FF5A51D548C0B005CF59E /* 侧滑菜单.xcodeproj */,
 				AAC078221D30FCBE007D08B4 /* Exotic */,
 				AAC0783C1D30FCBE007D08B4 /* ExoticTests */,
 				AAC078471D30FCBE007D08B4 /* ExoticUITests */,
@@ -253,6 +308,8 @@
 				AAC078261D30FCBE007D08B4 /* AppDelegate.h */,
 				AAC078271D30FCBE007D08B4 /* AppDelegate.m */,
 				A06B45841D34EE2A00C8E683 /* Home */,
+				A04FF4391D546618005CF59E /* CoreGraphics */,
+				A06EFDF01D52EF2800F484A2 /* Operation */,
 				A06EFDE71D4F388100F484A2 /* GCD */,
 				A0351B041D45C406006A671C /* TestBlock */,
 				A06B457D1D34ED2500C8E683 /* Animation */,
@@ -395,6 +452,12 @@
 			mainGroup = AAC078171D30FCBD007D08B4;
 			productRefGroup = AAC078211D30FCBE007D08B4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A04FF5A61D548C0B005CF59E /* Products */;
+					ProjectRef = A04FF5A51D548C0B005CF59E /* 侧滑菜单.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AAC0781F1D30FCBE007D08B4 /* Exotic */,
@@ -404,6 +467,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A04FF5AB1D548C0B005CF59E /* 侧滑菜单.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "侧滑菜单.app";
+			remoteRef = A04FF5AA1D548C0B005CF59E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A04FF5AD1D548C0B005CF59E /* 侧滑菜单Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "侧滑菜单Tests.xctest";
+			remoteRef = A04FF5AC1D548C0B005CF59E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		AAC0781E1D30FCBE007D08B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -411,12 +491,14 @@
 			files = (
 				A0C130831D3648DA0022BC72 /* HCKeyFrameAnimationView.xib in Resources */,
 				A06B458D1D35C98E00C8E683 /* 02.mov in Resources */,
+				A04FF43E1D546642005CF59E /* CoreGraphicsViewController.xib in Resources */,
 				A0351B091D45C435006A671C /* TestBlockViewController.xib in Resources */,
 				A06EFDEC1D4F396700F484A2 /* GCDViewController.xib in Resources */,
 				AAC078331D30FCBE007D08B4 /* LaunchScreen.storyboard in Resources */,
 				AAC078301D30FCBE007D08B4 /* Assets.xcassets in Resources */,
 				A0351B111D4602DB006A671C /* BViewController.xib in Resources */,
 				A08802A31D3C689B00696C05 /* Exotic_CollectionViewController.xib in Resources */,
+				A06EFDF51D52F03400F484A2 /* OperaationViewController.xib in Resources */,
 				AAC0782E1D30FCBE007D08B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04FF43D1D546642005CF59E /* CoreGraphicsViewController.m in Sources */,
 				A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */,
 				A0351B101D4602DB006A671C /* BViewController.m in Sources */,
 				A06EFDEF1D4F513C00F484A2 /* NavigationViewController.m in Sources */,
@@ -503,6 +586,7 @@
 				A06EFDEB1D4F396700F484A2 /* GCDViewController.m in Sources */,
 				A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */,
 				AAC078251D30FCBE007D08B4 /* main.m in Sources */,
+				A06EFDF41D52F03400F484A2 /* OperaationViewController.m in Sources */,
 				A06B458B1D34EEB900C8E683 /* Exotic_MovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

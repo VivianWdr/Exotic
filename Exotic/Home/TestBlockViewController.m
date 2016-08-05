@@ -21,9 +21,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     Task *task = [[Task alloc] init];
+    
     [task beginTaskCallbackBlock:^{
         NSLog(@"Task End!");
     }];
+    
+    task.callbackBlock = ^(){
+        NSLog(@"Task End!!!!");
+    };
     
     self.blockProperty = ^{
         //NSLog(@"blockProperty is called");
