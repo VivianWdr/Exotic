@@ -54,6 +54,13 @@
 			remoteGlobalIDString = DA8894201B53E3FF00B47DE7;
 			remoteInfo = "侧滑菜单Tests";
 		};
+		AA6160CE1D54D63500259E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6160CA1D54D63500259E44 /* YXCollectionView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DADDB53E1BC911B00029AC56;
+			remoteInfo = YXCollectionView;
+		};
 		AAC0783A1D30FCBE007D08B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AAC078181D30FCBE007D08B4 /* Project object */;
@@ -110,6 +117,7 @@
 		A0C130811D3648DA0022BC72 /* HCKeyFrameAnimationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCKeyFrameAnimationView.xib; sourceTree = "<group>"; };
 		A0C130841D3649370022BC72 /* Exotic_AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_AnimationViewController.h; sourceTree = "<group>"; };
 		A0C130851D3649370022BC72 /* Exotic_AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_AnimationViewController.m; sourceTree = "<group>"; };
+		AA6160CA1D54D63500259E44 /* YXCollectionView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YXCollectionView.xcodeproj; path = YXCollectionView/YXCollectionView.xcodeproj; sourceTree = "<group>"; };
 		AAC078201D30FCBE007D08B4 /* Exotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exotic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC078241D30FCBE007D08B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAC078261D30FCBE007D08B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -279,9 +287,18 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		AA6160CB1D54D63500259E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6160CF1D54D63500259E44 /* YXCollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AAC078171D30FCBD007D08B4 = {
 			isa = PBXGroup;
 			children = (
+				AA6160CA1D54D63500259E44 /* YXCollectionView.xcodeproj */,
 				A04FF5A51D548C0B005CF59E /* 侧滑菜单.xcodeproj */,
 				AAC078221D30FCBE007D08B4 /* Exotic */,
 				AAC0783C1D30FCBE007D08B4 /* ExoticTests */,
@@ -454,6 +471,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = AA6160CB1D54D63500259E44 /* Products */;
+					ProjectRef = AA6160CA1D54D63500259E44 /* YXCollectionView.xcodeproj */;
+				},
+				{
 					ProductGroup = A04FF5A61D548C0B005CF59E /* Products */;
 					ProjectRef = A04FF5A51D548C0B005CF59E /* 侧滑菜单.xcodeproj */;
 				},
@@ -480,6 +501,13 @@
 			fileType = wrapper.cfbundle;
 			path = "侧滑菜单Tests.xctest";
 			remoteRef = A04FF5AC1D548C0B005CF59E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA6160CF1D54D63500259E44 /* YXCollectionView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = YXCollectionView.app;
+			remoteRef = AA6160CE1D54D63500259E44 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
