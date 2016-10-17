@@ -29,6 +29,8 @@
     [self addCell:@"GCD" class:@"GCDViewController"];
     [self addCell:@"NSOperation" class:@"OperaationViewController"];
     [self addCell:@"CodeGraphics" class:@"CoreGraphicsViewController"];
+    [self addCell:@"CodingStandards" class:@"CodingStandardsViewController"];
+    [self addCell:@"CoreData" class:@"CoreDataViewController"];
     
     [self.tableView reloadData];
 }

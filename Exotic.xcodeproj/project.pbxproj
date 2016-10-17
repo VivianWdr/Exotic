@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6A84DD39A3F59E041E4A3D62 /* libPods-Exotic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */; };
+		A02722491DADE04000B9B1FC /* CodingStandardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02722481DADE04000B9B1FC /* CodingStandardsViewController.m */; };
+		A02722541DAF5B4400B9B1FC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A02722521DAF5B4400B9B1FC /* Model.xcdatamodeld */; };
+		A027225D1DAF5CF800B9B1FC /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A02722561DAF5CF800B9B1FC /* User+CoreDataProperties.m */; };
+		A027225E1DAF5CF800B9B1FC /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A02722581DAF5CF800B9B1FC /* User.m */; };
+		A027225F1DAF5CF800B9B1FC /* Admin+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A027225A1DAF5CF800B9B1FC /* Admin+CoreDataProperties.m */; };
+		A02722601DAF5CF800B9B1FC /* Admin.m in Sources */ = {isa = PBXBuildFile; fileRef = A027225C1DAF5CF800B9B1FC /* Admin.m */; };
+		A02722621DAF5E1B00B9B1FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02722611DAF5E1B00B9B1FC /* CoreData.framework */; };
+		A02722661DAF5EB800B9B1FC /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02722651DAF5EB800B9B1FC /* CoreDataViewController.m */; };
+		A02722691DAF8BF400B9B1FC /* myKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A02722681DAF8BF400B9B1FC /* myKVO.m */; };
 		A0351B081D45C435006A671C /* TestBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0351B061D45C435006A671C /* TestBlockViewController.m */; };
 		A0351B091D45C435006A671C /* TestBlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0351B071D45C435006A671C /* TestBlockViewController.xib */; };
 		A0351B0C1D45CB49006A671C /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = A0351B0B1D45CB49006A671C /* Task.m */; };
@@ -80,6 +89,22 @@
 /* Begin PBXFileReference section */
 		0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exotic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7437BDF218427E4926252 /* Pods-Exotic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exotic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Exotic/Pods-Exotic.release.xcconfig"; sourceTree = "<group>"; };
+		A02722471DADE04000B9B1FC /* CodingStandardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodingStandardsViewController.h; sourceTree = "<group>"; };
+		A02722481DADE04000B9B1FC /* CodingStandardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodingStandardsViewController.m; sourceTree = "<group>"; };
+		A02722531DAF5B4400B9B1FC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A02722551DAF5CF800B9B1FC /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A02722561DAF5CF800B9B1FC /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A02722571DAF5CF800B9B1FC /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A02722581DAF5CF800B9B1FC /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A02722591DAF5CF800B9B1FC /* Admin+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Admin+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A027225A1DAF5CF800B9B1FC /* Admin+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Admin+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A027225B1DAF5CF800B9B1FC /* Admin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Admin.h; sourceTree = "<group>"; };
+		A027225C1DAF5CF800B9B1FC /* Admin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Admin.m; sourceTree = "<group>"; };
+		A02722611DAF5E1B00B9B1FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A02722641DAF5EB800B9B1FC /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		A02722651DAF5EB800B9B1FC /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		A02722671DAF8BF400B9B1FC /* myKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myKVO.h; sourceTree = "<group>"; };
+		A02722681DAF8BF400B9B1FC /* myKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myKVO.m; sourceTree = "<group>"; };
 		A0351B051D45C435006A671C /* TestBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBlockViewController.h; sourceTree = "<group>"; };
 		A0351B061D45C435006A671C /* TestBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBlockViewController.m; sourceTree = "<group>"; };
 		A0351B071D45C435006A671C /* TestBlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestBlockViewController.xib; sourceTree = "<group>"; };
@@ -140,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02722621DAF5E1B00B9B1FC /* CoreData.framework in Frameworks */,
 				6A84DD39A3F59E041E4A3D62 /* libPods-Exotic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +194,26 @@
 				9AE7437BDF218427E4926252 /* Pods-Exotic.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A02722431DADDF9E00B9B1FC /* Coding standards */ = {
+			isa = PBXGroup;
+			children = (
+				A02722471DADE04000B9B1FC /* CodingStandardsViewController.h */,
+				A02722481DADE04000B9B1FC /* CodingStandardsViewController.m */,
+			);
+			name = "Coding standards";
+			sourceTree = "<group>";
+		};
+		A02722631DAF5E9F00B9B1FC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A02722671DAF8BF400B9B1FC /* myKVO.h */,
+				A02722681DAF8BF400B9B1FC /* myKVO.m */,
+				A02722641DAF5EB800B9B1FC /* CoreDataViewController.h */,
+				A02722651DAF5EB800B9B1FC /* CoreDataViewController.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 		A0351B041D45C406006A671C /* TestBlock */ = {
@@ -324,6 +370,7 @@
 			children = (
 				AAC078261D30FCBE007D08B4 /* AppDelegate.h */,
 				AAC078271D30FCBE007D08B4 /* AppDelegate.m */,
+				A02722431DADDF9E00B9B1FC /* Coding standards */,
 				A06B45841D34EE2A00C8E683 /* Home */,
 				A04FF4391D546618005CF59E /* CoreGraphics */,
 				A06EFDF01D52EF2800F484A2 /* Operation */,
@@ -331,6 +378,7 @@
 				A0351B041D45C406006A671C /* TestBlock */,
 				A06B457D1D34ED2500C8E683 /* Animation */,
 				A06B45881D34EE8900C8E683 /* MoviePlayer */,
+				A02722631DAF5E9F00B9B1FC /* CoreData */,
 				AAC0782C1D30FCBE007D08B4 /* Main.storyboard */,
 				AAC0782F1D30FCBE007D08B4 /* Assets.xcassets */,
 				AAC078311D30FCBE007D08B4 /* LaunchScreen.storyboard */,
@@ -338,6 +386,15 @@
 				AAC078231D30FCBE007D08B4 /* Supporting Files */,
 				A06EFDED1D4F513C00F484A2 /* NavigationViewController.h */,
 				A06EFDEE1D4F513C00F484A2 /* NavigationViewController.m */,
+				A02722521DAF5B4400B9B1FC /* Model.xcdatamodeld */,
+				A02722551DAF5CF800B9B1FC /* User+CoreDataProperties.h */,
+				A02722561DAF5CF800B9B1FC /* User+CoreDataProperties.m */,
+				A02722571DAF5CF800B9B1FC /* User.h */,
+				A02722581DAF5CF800B9B1FC /* User.m */,
+				A02722591DAF5CF800B9B1FC /* Admin+CoreDataProperties.h */,
+				A027225A1DAF5CF800B9B1FC /* Admin+CoreDataProperties.m */,
+				A027225B1DAF5CF800B9B1FC /* Admin.h */,
+				A027225C1DAF5CF800B9B1FC /* Admin.m */,
 			);
 			path = Exotic;
 			sourceTree = "<group>";
@@ -372,6 +429,7 @@
 		B98E954D400EDDBB313E48E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A02722611DAF5E1B00B9B1FC /* CoreData.framework */,
 				0E3E088EE7DD41D8383B8EE7 /* libPods-Exotic.a */,
 			);
 			name = Frameworks;
@@ -385,8 +443,8 @@
 			buildConfigurationList = AAC0784D1D30FCBE007D08B4 /* Build configuration list for PBXNativeTarget "Exotic" */;
 			buildPhases = (
 				93D18205B36B009D63FA9E1A /* 📦 Check Pods Manifest.lock */,
-				AAC0781C1D30FCBE007D08B4 /* Sources */,
 				AAC0781D1D30FCBE007D08B4 /* Frameworks */,
+				AAC0781C1D30FCBE007D08B4 /* Sources */,
 				AAC0781E1D30FCBE007D08B4 /* Resources */,
 				3AF608EE50F8D253812A5084 /* 📦 Embed Pods Frameworks */,
 				FECF394C11DD819C192D270A /* 📦 Copy Pods Resources */,
@@ -600,16 +658,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02722691DAF8BF400B9B1FC /* myKVO.m in Sources */,
+				A02722661DAF5EB800B9B1FC /* CoreDataViewController.m in Sources */,
+				A027225E1DAF5CF800B9B1FC /* User.m in Sources */,
+				A027225F1DAF5CF800B9B1FC /* Admin+CoreDataProperties.m in Sources */,
 				A04FF43D1D546642005CF59E /* CoreGraphicsViewController.m in Sources */,
 				A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */,
 				A0351B101D4602DB006A671C /* BViewController.m in Sources */,
 				A06EFDEF1D4F513C00F484A2 /* NavigationViewController.m in Sources */,
 				A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */,
+				A02722541DAF5B4400B9B1FC /* Model.xcdatamodeld in Sources */,
 				A0C130861D3649370022BC72 /* Exotic_AnimationViewController.m in Sources */,
 				A0351B0C1D45CB49006A671C /* Task.m in Sources */,
 				A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */,
 				A0351B081D45C435006A671C /* TestBlockViewController.m in Sources */,
+				A027225D1DAF5CF800B9B1FC /* User+CoreDataProperties.m in Sources */,
+				A02722601DAF5CF800B9B1FC /* Admin.m in Sources */,
 				AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */,
+				A02722491DADE04000B9B1FC /* CodingStandardsViewController.m in Sources */,
 				A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */,
 				A06EFDEB1D4F396700F484A2 /* GCDViewController.m in Sources */,
 				A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */,
@@ -862,6 +928,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A02722521DAF5B4400B9B1FC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A02722531DAF5B4400B9B1FC /* Model.xcdatamodel */,
+			);
+			currentVersion = A02722531DAF5B4400B9B1FC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AAC078181D30FCBE007D08B4 /* Project object */;
 }
