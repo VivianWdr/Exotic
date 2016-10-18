@@ -36,6 +36,17 @@
 		A06EFDF51D52F03400F484A2 /* OperaationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06EFDF31D52F03400F484A2 /* OperaationViewController.xib */; };
 		A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */; };
 		A08802A31D3C689B00696C05 /* Exotic_CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */; };
+		A09F16A91DB45E150065FD3A /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F16A71DB45E150065FD3A /* KVOViewController.m */; };
+		A09F16AA1DB45E150065FD3A /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A09F16A81DB45E150065FD3A /* KVOViewController.xib */; };
+		A09F16AD1DB4C5B20065FD3A /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F16AC1DB4C5B20065FD3A /* KVCViewController.m */; };
+		A09F16B01DB5F42D0065FD3A /* README (1).md in Sources */ = {isa = PBXBuildFile; fileRef = A09F16AF1DB5F42D0065FD3A /* README (1).md */; };
+		A09F16B51DB60C400065FD3A /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F16B21DB60C400065FD3A /* CBViewController.m */; };
+		A09F16B61DB60C400065FD3A /* CBRectPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F16B41DB60C400065FD3A /* CBRectPositionController.m */; };
+		A09F16C01DB616F00065FD3A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09F16B81DB616F00065FD3A /* Main_iPhone.storyboard */; };
+		A09F16C11DB616F00065FD3A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09F16B91DB616F00065FD3A /* Main_iPad.storyboard */; };
+		A09F16C21DB616F00065FD3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F16BB1DB616F00065FD3A /* ViewController.m */; };
+		A09F16C31DB616F00065FD3A /* KeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F16BD1DB616F00065FD3A /* KeyValueObserver.m */; };
+		A09F16C41DB616F00065FD3A /* LabColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F16BF1DB616F00065FD3A /* LabColor.m */; };
 		A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */; };
 		A0C130831D3648DA0022BC72 /* HCKeyFrameAnimationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C130811D3648DA0022BC72 /* HCKeyFrameAnimationView.xib */; };
 		A0C130861D3649370022BC72 /* Exotic_AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C130851D3649370022BC72 /* Exotic_AnimationViewController.m */; };
@@ -137,6 +148,24 @@
 		A088029F1D3C689B00696C05 /* Exotic_CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exotic_CollectionViewController.h; sourceTree = "<group>"; };
 		A08802A01D3C689B00696C05 /* Exotic_CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exotic_CollectionViewController.m; sourceTree = "<group>"; };
 		A08802A11D3C689B00696C05 /* Exotic_CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Exotic_CollectionViewController.xib; sourceTree = "<group>"; };
+		A09F16A61DB45E150065FD3A /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		A09F16A71DB45E150065FD3A /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		A09F16A81DB45E150065FD3A /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
+		A09F16AB1DB4C5B20065FD3A /* KVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		A09F16AC1DB4C5B20065FD3A /* KVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
+		A09F16AF1DB5F42D0065FD3A /* README (1).md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README (1).md"; sourceTree = "<group>"; };
+		A09F16B11DB60C400065FD3A /* CBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		A09F16B21DB60C400065FD3A /* CBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		A09F16B31DB60C400065FD3A /* CBRectPositionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBRectPositionController.h; sourceTree = "<group>"; };
+		A09F16B41DB60C400065FD3A /* CBRectPositionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBRectPositionController.m; sourceTree = "<group>"; };
+		A09F16B81DB616F00065FD3A /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A09F16B91DB616F00065FD3A /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		A09F16BA1DB616F00065FD3A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A09F16BB1DB616F00065FD3A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A09F16BC1DB616F00065FD3A /* KeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueObserver.h; sourceTree = "<group>"; };
+		A09F16BD1DB616F00065FD3A /* KeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueObserver.m; sourceTree = "<group>"; };
+		A09F16BE1DB616F00065FD3A /* LabColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabColor.h; sourceTree = "<group>"; };
+		A09F16BF1DB616F00065FD3A /* LabColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabColor.m; sourceTree = "<group>"; };
 		A0C1307F1D3648DA0022BC72 /* HCKeyFrameAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKeyFrameAnimationView.h; sourceTree = "<group>"; };
 		A0C130801D3648DA0022BC72 /* HCKeyFrameAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKeyFrameAnimationView.m; sourceTree = "<group>"; };
 		A0C130811D3648DA0022BC72 /* HCKeyFrameAnimationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCKeyFrameAnimationView.xib; sourceTree = "<group>"; };
@@ -208,8 +237,6 @@
 		A02722631DAF5E9F00B9B1FC /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				A02722671DAF8BF400B9B1FC /* myKVO.h */,
-				A02722681DAF8BF400B9B1FC /* myKVO.m */,
 				A02722641DAF5EB800B9B1FC /* CoreDataViewController.h */,
 				A02722651DAF5EB800B9B1FC /* CoreDataViewController.m */,
 			);
@@ -310,6 +337,47 @@
 			path = ../Animation;
 			sourceTree = "<group>";
 		};
+		A09F16A21DB45CEB0065FD3A /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				A09F16B71DB616DB0065FD3A /* Lab Color Space Explorer */,
+				A02722671DAF8BF400B9B1FC /* myKVO.h */,
+				A02722681DAF8BF400B9B1FC /* myKVO.m */,
+				A09F16A61DB45E150065FD3A /* KVOViewController.h */,
+				A09F16A71DB45E150065FD3A /* KVOViewController.m */,
+				A09F16A81DB45E150065FD3A /* KVOViewController.xib */,
+				A09F16B11DB60C400065FD3A /* CBViewController.h */,
+				A09F16B21DB60C400065FD3A /* CBViewController.m */,
+				A09F16B31DB60C400065FD3A /* CBRectPositionController.h */,
+				A09F16B41DB60C400065FD3A /* CBRectPositionController.m */,
+			);
+			name = KVO;
+			sourceTree = "<group>";
+		};
+		A09F16AE1DB4C5BB0065FD3A /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				A09F16AB1DB4C5B20065FD3A /* KVCViewController.h */,
+				A09F16AC1DB4C5B20065FD3A /* KVCViewController.m */,
+			);
+			name = KVC;
+			sourceTree = "<group>";
+		};
+		A09F16B71DB616DB0065FD3A /* Lab Color Space Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				A09F16B81DB616F00065FD3A /* Main_iPhone.storyboard */,
+				A09F16B91DB616F00065FD3A /* Main_iPad.storyboard */,
+				A09F16BA1DB616F00065FD3A /* ViewController.h */,
+				A09F16BB1DB616F00065FD3A /* ViewController.m */,
+				A09F16BC1DB616F00065FD3A /* KeyValueObserver.h */,
+				A09F16BD1DB616F00065FD3A /* KeyValueObserver.m */,
+				A09F16BE1DB616F00065FD3A /* LabColor.h */,
+				A09F16BF1DB616F00065FD3A /* LabColor.m */,
+			);
+			name = "Lab Color Space Explorer";
+			sourceTree = "<group>";
+		};
 		A0C130871D36494F0022BC72 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +412,7 @@
 		AAC078171D30FCBD007D08B4 = {
 			isa = PBXGroup;
 			children = (
+				A09F16AF1DB5F42D0065FD3A /* README (1).md */,
 				AA6160CA1D54D63500259E44 /* YXCollectionView.xcodeproj */,
 				A04FF5A51D548C0B005CF59E /* 侧滑菜单.xcodeproj */,
 				AAC078221D30FCBE007D08B4 /* Exotic */,
@@ -368,6 +437,8 @@
 		AAC078221D30FCBE007D08B4 /* Exotic */ = {
 			isa = PBXGroup;
 			children = (
+				A09F16AE1DB4C5BB0065FD3A /* KVC */,
+				A09F16A21DB45CEB0065FD3A /* KVO */,
 				AAC078261D30FCBE007D08B4 /* AppDelegate.h */,
 				AAC078271D30FCBE007D08B4 /* AppDelegate.m */,
 				A02722431DADDF9E00B9B1FC /* Coding standards */,
@@ -579,11 +650,14 @@
 				A06B458D1D35C98E00C8E683 /* 02.mov in Resources */,
 				A04FF43E1D546642005CF59E /* CoreGraphicsViewController.xib in Resources */,
 				A0351B091D45C435006A671C /* TestBlockViewController.xib in Resources */,
+				A09F16C01DB616F00065FD3A /* Main_iPhone.storyboard in Resources */,
+				A09F16C11DB616F00065FD3A /* Main_iPad.storyboard in Resources */,
 				A06EFDEC1D4F396700F484A2 /* GCDViewController.xib in Resources */,
 				AAC078331D30FCBE007D08B4 /* LaunchScreen.storyboard in Resources */,
 				AAC078301D30FCBE007D08B4 /* Assets.xcassets in Resources */,
 				A0351B111D4602DB006A671C /* BViewController.xib in Resources */,
 				A08802A31D3C689B00696C05 /* Exotic_CollectionViewController.xib in Resources */,
+				A09F16AA1DB45E150065FD3A /* KVOViewController.xib in Resources */,
 				A06EFDF51D52F03400F484A2 /* OperaationViewController.xib in Resources */,
 				AAC0782E1D30FCBE007D08B4 /* Main.storyboard in Resources */,
 			);
@@ -659,24 +733,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				A02722691DAF8BF400B9B1FC /* myKVO.m in Sources */,
+				A09F16B51DB60C400065FD3A /* CBViewController.m in Sources */,
+				A09F16AD1DB4C5B20065FD3A /* KVCViewController.m in Sources */,
 				A02722661DAF5EB800B9B1FC /* CoreDataViewController.m in Sources */,
 				A027225E1DAF5CF800B9B1FC /* User.m in Sources */,
 				A027225F1DAF5CF800B9B1FC /* Admin+CoreDataProperties.m in Sources */,
 				A04FF43D1D546642005CF59E /* CoreGraphicsViewController.m in Sources */,
 				A0C130821D3648DA0022BC72 /* HCKeyFrameAnimationView.m in Sources */,
 				A0351B101D4602DB006A671C /* BViewController.m in Sources */,
+				A09F16B01DB5F42D0065FD3A /* README (1).md in Sources */,
 				A06EFDEF1D4F513C00F484A2 /* NavigationViewController.m in Sources */,
 				A06B45821D34ED2500C8E683 /* Exotic_AnimationExample.m in Sources */,
 				A02722541DAF5B4400B9B1FC /* Model.xcdatamodeld in Sources */,
 				A0C130861D3649370022BC72 /* Exotic_AnimationViewController.m in Sources */,
 				A0351B0C1D45CB49006A671C /* Task.m in Sources */,
 				A06B45831D34ED2500C8E683 /* Exotic_PageAnimationUtil.m in Sources */,
+				A09F16C31DB616F00065FD3A /* KeyValueObserver.m in Sources */,
 				A0351B081D45C435006A671C /* TestBlockViewController.m in Sources */,
 				A027225D1DAF5CF800B9B1FC /* User+CoreDataProperties.m in Sources */,
+				A09F16C41DB616F00065FD3A /* LabColor.m in Sources */,
 				A02722601DAF5CF800B9B1FC /* Admin.m in Sources */,
 				AAC078281D30FCBE007D08B4 /* AppDelegate.m in Sources */,
 				A02722491DADE04000B9B1FC /* CodingStandardsViewController.m in Sources */,
+				A09F16B61DB60C400065FD3A /* CBRectPositionController.m in Sources */,
 				A06B45871D34EE2A00C8E683 /* Exotic_HomeTableViewController.m in Sources */,
+				A09F16A91DB45E150065FD3A /* KVOViewController.m in Sources */,
+				A09F16C21DB616F00065FD3A /* ViewController.m in Sources */,
 				A06EFDEB1D4F396700F484A2 /* GCDViewController.m in Sources */,
 				A08802A21D3C689B00696C05 /* Exotic_CollectionViewController.m in Sources */,
 				AAC078251D30FCBE007D08B4 /* main.m in Sources */,

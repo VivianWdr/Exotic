@@ -31,6 +31,8 @@
     [self addCell:@"CodeGraphics" class:@"CoreGraphicsViewController"];
     [self addCell:@"CodingStandards" class:@"CodingStandardsViewController"];
     [self addCell:@"CoreData" class:@"CoreDataViewController"];
+    [self addCell:@"KVC" class:@"KVCViewController"];
+    [self addCell:@"KVO" class:@"KVOViewController"];
     
     [self.tableView reloadData];
 }
